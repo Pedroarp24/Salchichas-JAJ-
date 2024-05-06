@@ -1,0 +1,82 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  text-align: justify;
+}
+img {
+  width: 300px; /* or any other desired width */
+  height: 300px; /* or any other desired height */
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f0f0f0;
+}
+body {
+  margin: 30px; /* adds 20px margin to all sides of the body element */
+}
+/* Encabezado */
+header {
+  background-color: #ecdd06;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navegación */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ee1818;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Sección de productos */
+section#Productos figure {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+      margin-bottom: 10px;
+  }
+}
